@@ -1,0 +1,9 @@
+executable = MasterDnsVPN.exe
+resolvers = client_resolvers.txt
+dnsvpn_config = client_config.toml
+link = https://packages.element.io/desktop/install/win32/x64/Element%20Setup.exe
+start_port = 19000
+timeout_thread = 20
+timeout_curl = 10
+minspeed = 10000
+threads = 10
